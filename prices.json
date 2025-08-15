@@ -1,6 +1,22 @@
 {
-  "gold_price": 9400,
-  "currency": "DZD",
-  "date": "2025-08-15"
+  "current_other_prices": {
+    "foreign": 14250,  // سعر جديد
+    "kassi_local": 11800,
+    "kassi_foreign": 12500,
+    "louis": 68100      // سعر جديد
+  },
+  "local_gold_history": [
+    {
+      "date": "2025-08-16",  // <-- الإضافة الجديدة هنا في الأعلى
+      "price": 13550
+    },
+    {
+      "date": "2025-08-15",
+      "price": 13500
+    },
+    {
+      "date": "2025-08-14",
+      "price": 13450
+    }
+  ]
 }
-
