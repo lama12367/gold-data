@@ -1,22 +1,28 @@
 {
-  "current_other_prices": {
-    "foreign": 14250,  // سعر جديد
-    "kassi_local": 11800,
-    "kassi_foreign": 12500,
-    "louis": 68100      // سعر جديد
-  },
-  "local_gold_history": [
-    {
-      "date": "2025-08-16",  // <-- الإضافة الجديدة هنا في الأعلى
-      "price": 13550
-    },
+  "price_history": [
     {
       "date": "2025-08-15",
-      "price": 13500
+      "local": 13500,
+      "foreign": 14200,
+      "kassi_local": 11800,
+      "kassi_foreign": 12500,
+      "louis": 68000
     },
     {
       "date": "2025-08-14",
-      "price": 13450
+      "local": 13450,
+      "foreign": 14150,
+      "kassi_local": 11750,
+      "kassi_foreign": 12450,
+      "louis": 67800
+    },
+    {
+      "date": "2025-08-13",
+      "local": 13480,
+      "foreign": 14180,
+      "kassi_local": 11780,
+      "kassi_foreign": 12480,
+      "louis": 67900
     }
   ]
 }
