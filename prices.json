@@ -2,6 +2,14 @@
   "price_history": [
     {
       "date": "2025-08-17",
+      "local": 20800,
+      "foreign": 22200,
+      "kassi_local": 11800,
+      "kassi_foreign": 12500,
+      "louis": 20000
+    },
+    {
+      "date": "2025-08-16",
       "local": 20500,
       "foreign": 22200,
       "kassi_local": 11800,
@@ -9,7 +17,7 @@
       "louis": 68000
     },
     {
-      "date": "2025-08-16",
+      "date": "2025-08-15",
       "local": 20400,
       "foreign": 14200,
       "kassi_local": 11800,
@@ -17,7 +25,7 @@
       "louis": 68000
     },
     {
-      "date": "2025-08-15",
+      "date": "2025-08-14",
       "local": 13500,
       "foreign": 14200,
       "kassi_local": 11800,
@@ -25,7 +33,7 @@
       "louis": 68000
     },
     {
-      "date": "2025-08-14",
+      "date": "2025-08-13",
       "local": 13450,
       "foreign": 14150,
       "kassi_local": 11750,
@@ -33,7 +41,7 @@
       "louis": 67800
     },
     {
-      "date": "2025-08-13",
+      "date": "2025-08-12",
       "local": 13480,
       "foreign": 14180,
       "kassi_local": 11780,
@@ -42,6 +50,7 @@
     }
   ]
 }
+
 
 
 
