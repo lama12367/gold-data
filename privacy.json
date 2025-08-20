@@ -1,0 +1,155 @@
+{
+  "ar": {
+  "title": "سياسة الخصوصية لتطبيق GOLD DZ",
+  "lastUpdated": "20 أغسطس 2025",
+  "introduction": "أهلاً بك في تطبيق GOLD DZ. نحن نأخذ خصوصيتك على محمل الجد. توضح هذه السياسة ماهية البيانات التي نجمعها، وكيف نستخدمها، ومع من نشاركها. باستخدامك للتطبيق، فإنك توافق على الممارسات الموضحة في هذه السياسة.",
+  "sections": [
+    {
+      "title": "1. البيانات التي نجمعها",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "لتقديم أفضل خدمة ممكنة، نتعامل مع أنواع مختلفة من البيانات، ونؤمن بالشفافية الكاملة حولها:"
+        },
+        {
+          "type": "subheading",
+          "text": "أ) البيانات التي لا نجمعها إطلاقاً:"
+        },
+        {
+          "type": "paragraph",
+          "text": "نحن لا نجمع أو نطلب أو نخزن أي معلومات تعريف شخصية (PII). وهذا يشمل:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "الاسم أو البريد الإلكتروني أو رقم الهاتف.",
+            "بيانات الموقع الجغرافي (GPS).",
+            "جهات الاتصال أو الصور أو أي ملفات شخصية من جهازك."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "ب) البيانات التي نجمعها بشكل مجهول الهوية (Anonymous Data):"
+        },
+        {
+          "type": "paragraph",
+          "text": "لضمان عمل وظائف التطبيق الأساسية وتحسينها، نجمع بيانات محدودة وغير شخصية:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "معرّف الإشعارات (Firebase Cloud Messaging Token): هو رمز فريد ومجهول الهوية يمنحه جهازك للتطبيق. نستخدمه فقط لإرسال إشعارات فورية إليك عند تغير أسعار الذهب. هذا المعرّف لا يكشف عن هويتك الشخصية.",
+            "بيانات استخدام التطبيق (Firebase Analytics): نجمع بيانات إحصائية مجهولة المصدر حول كيفية تفاعلك مع التطبيق، مثل الشاشات التي تزورها، والأزرار التي تضغط عليها، والميزات الأكثر استخدامًا. نستخدم هذه البيانات لفهم سلوك المستخدمين، وإصلاح الأخطاء، وتحسين تجربة التطبيق بشكل عام."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "ج) البيانات المحفوظة على جهازك فقط (Local Data):"
+        },
+        {
+          "type": "paragraph",
+          "text": "بعض تفضيلاتك يتم حفظها محليًا على جهازك باستخدام تقنية التخزين المحلي (LocalStorage) لتقديم تجربة مخصصة. هذه البيانات لا تصل إلى خوادمنا أبدًا وتبقى تحت سيطرتك الكاملة:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "اللغة المفضلة: لحفظ اللغة التي اخترتها (عربية، فرنسية، إنجليزية).",
+            "المظهر المفضل: لحفظ اختيارك بين الوضع النهاري والوضع المظلم.",
+            "حالة الإشعارات: لتذكر ما إذا كنت قد قمت بتفعيل الإشعارات أم لا."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. كيف نستخدم بياناتك",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "لتقديم خدماتنا: نستخدم معرّف الإشعارات لإرسال التنبيهات التي تطلبها.",
+            "لتحسين التطبيق: نستخدم بيانات Analytics المجهولة لتحليل الأداء وتحديد الميزات التي تحتاج إلى تحسين.",
+            "لتخصيص تجربتك: نستخدم البيانات المحفوظة محليًا لعرض التطبيق بالإعدادات التي تفضلها عند كل استخدام."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. مشاركة البيانات والأطراف الثالثة",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "نحن لا نبيع أو نؤجر بياناتك لأي طرف ثالث. ومع ذلك، نحن نعتمد على خدمات خارجية موثوقة لتشغيل التطبيق، والتي قد تجمع البيانات وفقًا لسياسات الخصوصية الخاصة بها:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Google Firebase (Analytics & Messaging): هي خدمة من Google نستخدمها لإرسال الإشعارات وجمع إحصائيات الاستخدام المجهولة.",
+            "Google AdMob: نستخدم هذه الخدمة لعرض الإعلانات داخل التطبيق، وهي إحدى وسائل دعمنا للاستمرار في تقديم التطبيق مجانًا. قد تستخدم AdMob معرّفات الأجهزة لجمع البيانات بهدف عرض إعلانات مخصصة لك. يمكنك الاطلاع على سياسة خصوصية Google لمعرفة المزيد: policies.google.com/privacy",
+            "GitHub & Google Apps Script: نستخدم هذه الخدمات لجلب بيانات أسعار الذهب والمقالات بشكل آمن ومجهول الهوية."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. أمن البيانات",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "نحن ملتزمون بحماية بياناتك. بما أننا لا نخزن أي معلومات شخصية على خوادمنا، فإن الخطر محدود. البيانات المجهولة التي نجمعها تتم معالجتها وتخزينها بشكل آمن من خلال خدمات Google، والتي تطبق معايير أمنية عالمية."
+        }
+      ]
+    },
+    {
+      "title": "5. الإعلانات (Advertisements)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "يحتوي التطبيق على إعلانات مقدمة من طرف ثالث (Google AdMob). هذه الإعلانات تساعد في الحفاظ على التطبيق مجانيًا. قد يستخدم مقدمو هذه الإعلانات ملفات تعريف الارتباط وتقنيات مشابهة لعرض إعلانات تهمك."
+        }
+      ]
+    },
+    {
+      "title": "6. الروابط الخارجية",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "قد يحتوي التطبيق على روابط لصفحاتنا على منصات التواصل الاجتماعي (مثل فيسبوك وتيك توك) أو البريد الإلكتروني. عند النقر على هذه الروابط، فإنك تنتقل إلى خدمة خارجية تخضع لسياسة الخصوصية الخاصة بها. نحن غير مسؤولين عن ممارسات الخصوصية في تلك المواقع."
+        }
+      ]
+    },
+    {
+      "title": "7. خصوصية الأطفال",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "تطبيقنا غير موجه للأطفال دون سن 13 عامًا. نحن لا نجمع عن عمد أي معلومات شخصية من الأطفال. إذا اكتشفنا أننا قمنا بجمع بيانات من طفل دون موافقة الوالدين، فسنقوم بحذفها على الفور."
+        }
+      ]
+    },
+    {
+      "title": "8. التغييرات على سياسة الخصوصية",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بنشر أي تغييرات على هذه الصفحة. نوصي بمراجعة هذه السياسة بشكل دوري لتكون على علم بأي تحديثات."
+        }
+      ]
+    },
+    {
+      "title": "9. اتصل بنا",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية هذه، يرجى عدم التردد في التواصل معنا عبر البريد الإلكتروني: golddzapp@gmail.com"
+        }
+      ]
+    }
+  ]
+},
+  "en": {
+    "content": "<p style='font-size: 13px; color: #777; text-align: center;'>Last Updated: September 1, 2025</p><p>Welcome to the GOLD DZ app. Your privacy is our top priority. This policy explains what data we collect and how we use it.</p><h4 style='color: #4b3900; margin-top: 25px;'>1. Information We Collect (and What We Don't)</h4><p>We believe in full transparency. Our app is designed to function with minimal data:</p><ul><li><strong>Data Stored on Your Device:</strong> We use your browser's LocalStorage technology solely to save your preferences. This data remains on your device and never reaches us. It includes:<ul><li><strong>Your preferred language (userLanguage):</strong> To automatically select the appropriate language for you.</li><li><strong>Your preferred theme (userTheme):</strong> To save your choice of dark or light mode.</li></ul></li><li style='margin-top: 10px;'><strong>Data We Never Collect:</strong> We do not collect or request any personally identifiable information such as name, email, phone number, or geographic location data (GPS).</li></ul><h4 style='color: #4b3900; margin-top: 25px;'>2. How We Use Data</h4><p>The only data used (language and theme preferences) is aimed at improving your in-app experience and personalizing the interface for you. Gold calculator data is processed on your device in real-time and is not saved or transmitted.</p><h4 style='color: #4b3900; margin-top: 25px;'>3. Third Parties</h4><p>We do not sell or share your data with any third parties. However, our app uses essential services to function:</p><ul><li><strong>GitHub:</strong> To fetch gold prices, articles, and the privacy policy. This process is completely anonymous.</li><li><strong>Google Fonts:</strong> To display the fonts used in the design.</li></ul><h4 style='color: #4b3900; margin-top: 25px;'>4. Data Security</h4><p>Since we do not collect personal data on our servers, your data remains secure on your personal device.</p><h4 style='color: #4b3900; margin-top: 25px;'>5. Contact Links</h4><p>When you click on the \"Contact Us\" links (Facebook, TikTok, Email), you are redirected to other applications and platforms that have their own privacy policies.</p>"
+  },
+  "fr": {
+    "content": "<p style='font-size: 13px; color: #777; text-align: center;'>Dernière mise à jour : 1er septembre 2025</p><p>Bienvenue sur l'application GOLD DZ. Votre vie privée est notre priorité absolue. Cette politique explique quelles données nous collectons et comment nous les utilisons.</p><h4 style='color: #4b3900; margin-top: 25px;'>1. Informations que nous collectons (et ce que nous ne collectons pas)</h4><p>Nous croyons en la transparence totale. Notre application est conçue pour fonctionner avec un minimum de données :</p><ul><li><strong>Données stockées sur votre appareil :</strong> Nous utilisons la technologie LocalStorage de votre navigateur uniquement pour enregistrer vos préférences. Ces données restent sur votre appareil et ne nous parviennent jamais. Elles comprennent :<ul><li><strong>Votre langue préférée (userLanguage) :</strong> Pour sélectionner automatiquement la langue appropriée.</li><li><strong>Votre thème préféré (userTheme) :</strong> Pour enregistrer votre choix de mode sombre ou clair.</li></ul></li><li style='margin-top: 10px;'><strong>Données que nous ne collectons jamais :</strong> Nous ne collectons ni ne demandons aucune information personnellement identifiable telle que le nom, l'e-mail, le numéro de téléphone ou les données de localisation géographique (GPS).</li></ul><h4 style='color: #4b3900; margin-top: 25px;'>2. Comment nous utilisons les données</h4><p>Les seules données utilisées (préférences de langue et de thème) visent uniquement à améliorer votre expérience dans l'application et à personnaliser l'interface pour vous. Les données du calculateur d'or sont traitées sur votre appareil en temps réel et ne sont ni enregistrées ni transmises.</p><h4 style='color: #4b3900; margin-top: 25px;'>3. Tiers</h4><p>Nous ne vendons ni ne partageons vos données avec des tiers. Cependant, notre application utilise des services essentiels à son fonctionnement :</p><ul><li><strong>GitHub :</strong> Pour récupérer les prix de l'or, les articles et la politique de confidentialité. Ce processus est totalement anonyme.</li><li><strong>Google Fonts :</strong> Pour afficher les polices utilisées dans le design.</li></ul><h4 style='color: #4b3900; margin-top: 25px;'>4. Sécurité des données</h4><p>Comme nous ne collectons pas de données personnelles sur nos serveurs, vos données restent en sécurité sur votre appareil personnel.</p><h4 style='color: #4b3900; margin-top: 25px;'>5. Liens de contact</h4><p>Lorsque vous cliquez sur les liens \"Nous contacter\" (Facebook, TikTok, E-mail), vous êtes redirigé vers d'autres applications et plateformes qui ont leurs propres politiques de confidentialité.</p>"
+  }
+}
