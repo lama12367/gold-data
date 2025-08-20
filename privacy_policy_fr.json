@@ -1,0 +1,147 @@
+{
+  "title": "Politique de Confidentialité pour l'application GOLD DZ",
+  "lastUpdated": "20 août 2025",
+  "introduction": "Bienvenue sur l'application GOLD DZ. Nous prenons votre vie privée très au sérieux. Cette politique explique quelles données nous collectons, comment nous les utilisons et avec qui nous les partageons. En utilisant l'application, vous acceptez les pratiques décrites dans cette politique.",
+  "sections": [
+    {
+      "title": "1. Les données que nous collectons",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pour fournir le meilleur service possible, nous traitons différents types de données, et nous croyons en une transparence totale à leur sujet :"
+        },
+        {
+          "type": "subheading",
+          "text": "a) Données que nous ne collectons jamais :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nous ne collectons, ne demandons ni ne stockons aucune information d'identification personnelle (PII). Cela inclut :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le nom, l'adresse e-mail ou le numéro de téléphone.",
+            "Les données de géolocalisation (GPS).",
+            "Les contacts, photos ou tout autre fichier personnel de votre appareil."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "b) Données que nous collectons de manière anonyme :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour assurer les fonctions essentielles de l'application et les améliorer, nous collectons des données limitées et non personnelles :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identifiant de notification (Token Firebase Cloud Messaging) : Il s'agit d'un code unique et anonyme que votre appareil attribue à l'application. Nous l'utilisons uniquement pour vous envoyer des notifications instantanées lorsque les prix de l'or changent. Cet identifiant ne révèle pas votre identité personnelle.",
+            "Données d'utilisation de l'application (Firebase Analytics) : Nous collectons des données statistiques anonymes sur la manière dont vous interagissez avec l'application, telles que les écrans que vous visitez, les boutons sur lesquels vous appuyez et les fonctionnalités les plus utilisées. Nous utilisons ces données pour comprendre le comportement des utilisateurs, corriger les bugs et améliorer l'expérience globale de l'application."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "c) Données enregistrées uniquement sur votre appareil (Données locales) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines de vos préférences sont enregistrées localement sur votre appareil à l'aide de la technologie de stockage local (LocalStorage) pour offrir une expérience personnalisée. Ces données n'atteignent jamais nos serveurs et restent sous votre contrôle total :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Langue préférée : Pour enregistrer la langue que vous avez choisie (arabe, français, anglais).",
+            "Thème préféré : Pour enregistrer votre choix entre le mode clair et le mode sombre.",
+            "Statut des notifications : Pour mémoriser si vous avez activé les notifications ou non."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Comment nous utilisons vos données",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Pour fournir nos services : Nous utilisons l'identifiant de notification pour envoyer les alertes que vous demandez.",
+            "Pour améliorer l'application : Nous utilisons les données anonymes d'Analytics pour analyser les performances et identifier les fonctionnalités à améliorer.",
+            "Pour personnaliser votre expérience : Nous utilisons les données enregistrées localement pour afficher l'application avec vos paramètres préférés à chaque utilisation."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Partage de données et tiers",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nous ne vendons ni ne louons vos données à des tiers. Cependant, nous nous appuyons sur des services tiers de confiance pour faire fonctionner l'application, qui peuvent collecter des données conformément à leurs propres politiques de confidentialité :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Google Firebase (Analytics & Messaging) : Un service de Google que nous utilisons pour envoyer des notifications et collecter des statistiques d'utilisation anonymes.",
+            "Google AdMob : Nous utilisons ce service pour afficher des publicités dans l'application, ce qui est l'un de nos moyens de continuer à offrir l'application gratuitement. AdMob peut utiliser les identifiants d'appareils pour collecter des données afin de vous proposer des publicités personnalisées. Vous pouvez consulter la politique de confidentialité de Google pour en savoir plus : policies.google.com/privacy",
+            "GitHub & Google Apps Script : Nous utilisons ces services pour récupérer les données sur les prix de l'or et les articles de manière sécurisée et anonyme."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Sécurité des données",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nous nous engageons à protéger vos données. Comme nous ne stockons aucune information personnelle sur nos serveurs, le risque est limité. Les données anonymes que nous collectons sont traitées et stockées en toute sécurité par les services de Google, qui appliquent des normes de sécurité mondiales."
+        }
+      ]
+    },
+    {
+      "title": "5. Publicités",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'application contient des publicités fournies par un tiers (Google AdMob). Ces publicités aident à maintenir l'application gratuite. Les fournisseurs de publicités peuvent utiliser des cookies et des technologies similaires pour afficher des annonces pertinentes pour vous."
+        }
+      ]
+    },
+    {
+      "title": "6. Liens externes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'application peut contenir des liens vers nos pages sur les réseaux sociaux (comme Facebook et TikTok) ou notre e-mail. Lorsque vous cliquez sur ces liens, vous êtes redirigé vers un service externe soumis à sa propre politique de confidentialité. Nous ne sommes pas responsables des pratiques de confidentialité de ces sites."
+        }
+      ]
+    },
+    {
+      "title": "7. Confidentialité des enfants",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Notre application n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si nous découvrons que nous avons collecté des données d'un enfant sans le consentement parental, nous les supprimerons immédiatement."
+        }
+      ]
+    },
+    {
+      "title": "8. Modifications de cette politique de confidentialité",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous publierons toute modification sur cette page. Nous vous recommandons de consulter cette politique périodiquement pour vous tenir informé de toute mise à jour."
+        }
+      ]
+    },
+    {
+      "title": "9. Contactez-nous",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, n'hésitez pas à nous contacter par e-mail : golddzapp@gmail.com"
+        }
+      ]
+    }
+  ]
+}
