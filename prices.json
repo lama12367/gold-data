@@ -3,93 +3,94 @@
   {
       "date": "2025-08-22",
       "local": 20500,
-      "foreign": 21300,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
+      "foreign": 22300,
+      "kassi_local": 16000,
+      "kassi_foreign": 17500,
       "louis": 20000
     }, 
     {
       "date": "2025-08-21",
       "local": 20400,
-      "foreign": 21300,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 20000
+      "foreign": 22500,
+      "kassi_local": 16000,
+      "kassi_foreign": 17500,
+      "louis": 20200
     }, 
     {
       "date": "2025-08-20",
       "local": 20300,
-      "foreign": 21300,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 20000
+      "foreign": 22600,
+      "kassi_local": 16000,
+      "kassi_foreign": 17500,
+      "louis": 20300
     },
     {
       "date": "2025-08-19",
       "local": 20400,
-      "foreign": 21300,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 20000
+      "foreign": 22500,
+      "kassi_local": 16200,
+      "kassi_foreign": 17600,
+      "louis": 20200
     },
     {
       "date": "2025-08-18",
       "local": 20400,
-      "foreign": 21300,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 20000
+      "foreign": 22500,
+      "kassi_local": 16100,
+      "kassi_foreign": 17400,
+      "louis": 20400
     },
     {
       "date": "2025-08-17",
       "local": 20700,
-      "foreign": 22200,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 20000
+      "foreign": 22800,
+      "kassi_local": 16100,
+      "kassi_foreign": 17700,
+      "louis": 20300
     },
     {
       "date": "2025-08-16",
       "local": 20500,
       "foreign": 22200,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 68000
+      "kassi_local": 16000,
+      "kassi_foreign": 17500,
+      "louis": 20500
     },
     {
       "date": "2025-08-15",
-      "local": 20400,
-      "foreign": 14200,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 68000
+      "local": 20200,
+      "foreign": 23300,
+      "kassi_local": 16000,
+      "kassi_foreign": 17500,
+      "louis": 20500
     },
     {
       "date": "2025-08-14",
-      "local": 13500,
-      "foreign": 14200,
-      "kassi_local": 11800,
-      "kassi_foreign": 12500,
-      "louis": 68000
+      "local": 20400,
+      "foreign": 23500,
+      "kassi_local": 16200,
+      "kassi_foreign": 17500,
+      "louis": 20600
     },
     {
       "date": "2025-08-13",
-      "local": 13450,
-      "foreign": 14150,
-      "kassi_local": 11750,
-      "kassi_foreign": 12450,
-      "louis": 67800
+      "local": 20300,
+      "foreign": 23400,
+      "kassi_local": 16100,
+      "kassi_foreign": 17400,
+      "louis": 20500
     },
     {
       "date": "2025-08-12",
-      "local": 13480,
-      "foreign": 14180,
-      "kassi_local": 11780,
-      "kassi_foreign": 12480,
-      "louis": 67900
+      "local": 20400,
+      "foreign": 23500,
+      "kassi_local": 16200,
+      "kassi_foreign": 17500,
+      "louis": 20600
     }
   ]
 }
+
 
 
 
