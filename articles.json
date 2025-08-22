@@ -1,129 +1,96 @@
 [
   {
     "lang": "ar",
-    "title": "أنواع الذهب",
-    "content": "الذهب معدن ثمين يستخدم منذ آلاف السنين في صناعة المجوهرات والاستثمار. تختلف أنواعه حسب النقاوة: عيار 24 قيراط هو الأنقى لكنه طري، عيار 22 أكثر صلابة، وعيار 18 و14 يحتويان على معادن أخرى كالفضة والنحاس. كما يختلف اللون بين الأصفر، الأبيض، والوردي."
+    "title": "تاريخ الذهب في الجزائر",
+    "content": "للذهب مكانة خاصة في تاريخ الجزائر، فقد استُخدم منذ العصور القديمة في صناعة الحلي التقليدية، خاصة عند الأمازيغ في منطقة القبائل. كانت المرأة الجزائرية تفتخر بارتداء قطع ذهبية تعكس مكانتها الاجتماعية. ومع مرور الزمن، أصبح الذهب وسيلة ادخار مهمة يحافظ بها الناس على ثرواتهم، خصوصاً في مواجهة تقلبات الاقتصاد. ما يميز الذهب الجزائري هو الجمع بين الطابع التقليدي واللمسة العصرية التي يطلبها الجيل الجديد."
   },
   {
     "lang": "fr",
-    "title": "Types d'or",
-    "content": "L'or est un métal précieux utilisé depuis des millénaires dans la joaillerie et l'investissement. Ses types varient selon la pureté : 24 carats est le plus pur mais très tendre, 22 carats est plus solide, tandis que 18 et 14 carats contiennent d'autres métaux comme l'argent et le cuivre. Les couleurs varient entre jaune, blanc et rose."
+    "title": "Histoire de l'or en Algérie",
+    "content": "L'or occupe une place particulière dans l'histoire de l'Algérie. Depuis l'Antiquité, il est utilisé dans la fabrication des bijoux traditionnels, notamment chez les Amazighs de la Kabylie. Les femmes algériennes étaient fières de porter des pièces en or reflétant leur statut social. Avec le temps, l'or est devenu un moyen d'épargne permettant de protéger les richesses face aux fluctuations économiques. Ce qui distingue l'or algérien, c'est la combinaison entre l'authenticité traditionnelle et une touche moderne recherchée par la nouvelle génération."
   },
   {
     "lang": "en",
-    "title": "Types of Gold",
-    "content": "Gold is a precious metal used for thousands of years in jewelry and investment. Its types vary by purity: 24K is the purest but soft, 22K is harder, while 18K and 14K contain other metals like silver and copper. Colors include yellow, white, and rose gold."
+    "title": "History of Gold in Algeria",
+    "content": "Gold holds a special place in Algeria’s history. Since ancient times, it has been used in crafting traditional jewelry, especially among the Amazigh people in Kabylia. Algerian women took pride in wearing gold pieces that reflected their social status. Over time, gold became an important means of saving wealth, especially in the face of economic fluctuations. What makes Algerian gold unique is the blend of traditional authenticity with a modern touch appreciated by the younger generation."
   },
 
   {
     "lang": "ar",
-    "title": "الذهب في الجزائر",
-    "content": "يعتبر الذهب في الجزائر وسيلة ادخار واستثمار، خاصة في المناسبات مثل الأعراس حيث يقتنى كهدية قيّمة. كما أن سعره يتأثر بالأسواق العالمية وسعر صرف الدينار."
+    "title": "الذهب كوسيلة ادخار",
+    "content": "يلجأ الجزائريون منذ زمن طويل إلى الذهب كوسيلة لحفظ القيمة وحماية أموالهم. في ظل تقلبات الدينار وارتفاع الأسعار، يعتبر شراء الذهب وسيلة آمنة للادخار، خاصة للنساء اللواتي يفضلن اقتناء المجوهرات الذهبية. كثير من العائلات تستعمل الذهب أيضاً كضمان في الأزمات، حيث يمكن بيعه بسهولة عند الحاجة. ورغم التغيرات الاقتصادية، ما يزال الذهب الخيار الأول للادخار الشعبي في الجزائر."
   },
   {
     "lang": "fr",
-    "title": "L'or en Algérie",
-    "content": "En Algérie, l'or est un moyen d'épargne et d'investissement, notamment lors des mariages où il est offert comme cadeau précieux. Son prix est influencé par les marchés mondiaux et le taux de change du dinar."
+    "title": "L'or comme épargne",
+    "content": "Depuis longtemps, les Algériens se tournent vers l'or comme moyen de conserver la valeur et de protéger leur argent. Face aux fluctuations du dinar et à la hausse des prix, l'achat d'or reste une méthode sûre d'épargne, notamment pour les femmes qui préfèrent les bijoux en or. De nombreuses familles utilisent également l'or comme garantie en cas de crise, car il peut être facilement vendu. Malgré les changements économiques, l'or demeure le choix privilégié de l'épargne populaire en Algérie."
   },
   {
     "lang": "en",
-    "title": "Gold in Algeria",
-    "content": "In Algeria, gold is a common form of savings and investment, especially in weddings where it is offered as a valuable gift. Its price is influenced by global markets and the dinar exchange rate."
+    "title": "Gold as a Savings Method",
+    "content": "For a long time, Algerians have relied on gold as a way to preserve value and protect their money. With the dinar’s fluctuations and rising prices, buying gold remains a safe method of saving, especially for women who prefer to invest in gold jewelry. Many families also use gold as security during crises since it can easily be sold when needed. Despite economic changes, gold continues to be the first choice for popular savings in Algeria."
   },
 
   {
     "lang": "ar",
-    "title": "كيفية اكتشاف الذهب المغشوش",
-    "content": "يمكن كشف الذهب المغشوش بفحص الختم (مثل 18K أو 24K)، استخدام المغناطيس (فالذهب لا يجذب)، اختبار الوزن والكثافة، أو إجراء اختبار الحمض في محلات معتمدة."
+    "title": "أنواع الذهب في الجزائر",
+    "content": "تتنوع أنواع الذهب المتداول في الجزائر بين الذهب عيار 18 وعيار 21 وعيار 24. الذهب عيار 18 يُعتبر الأكثر انتشاراً لسهولة تشكيله وانخفاض سعره نسبياً. أما الذهب عيار 21 فيُفضَّل في صناعة الحلي ذات الجودة العالية، بينما الذهب عيار 24 يُستخدم غالباً في الاستثمار. هذا التنوع يمنح المشترين خيارات متعددة حسب ميزانيتهم وهدفهم، سواء للزينة أو الادخار أو الاستثمار."
+  },
+  {
+    "lang": "fr",
+    "title": "Types d'or en Algérie",
+    "content": "En Algérie, l'or se décline en plusieurs types, principalement 18 carats, 21 carats et 24 carats. L'or 18 carats est le plus répandu grâce à sa malléabilité et son prix relativement abordable. L'or 21 carats est privilégié pour la fabrication de bijoux de haute qualité, tandis que l'or 24 carats est souvent utilisé pour l'investissement. Cette diversité offre aux acheteurs plusieurs choix selon leur budget et leur objectif, qu'il s'agisse de parure, d'épargne ou d'investissement."
+  },
+  {
+    "lang": "en",
+    "title": "Types of Gold in Algeria",
+    "content": "In Algeria, gold comes in various types, mainly 18K, 21K, and 24K. 18K gold is the most common due to its malleability and relatively affordable price. 21K gold is preferred for crafting high-quality jewelry, while 24K gold is mainly used for investment purposes. This variety provides buyers with multiple options depending on their budget and goals, whether for adornment, saving, or investment."
+  },
+[
+  {
+    "lang": "ar",
+    "title": "الذهب والمناسبات الجزائرية",
+    "content": "يلعب الذهب دوراً مهماً في المناسبات الاجتماعية بالجزائر، خاصة حفلات الزواج والخطوبة. إذ يُعتبر هدية أساسية تقدم للعروس، وغالباً ما تُعرف باسم 'الصَّداق'. هذا التقليد يعكس قيمة الذهب كرمز للمكانة والاحترام، ويُعتبر ضماناً للعروس في حياتها المستقبلية. رغم تطور العادات، إلا أن الذهب ما يزال حاضراً بقوة في الأفراح الجزائرية، مما يجعله جزءاً من الثقافة الشعبية المتوارثة عبر الأجيال."
+  },
+  {
+    "lang": "fr",
+    "title": "L'or et les célébrations en Algérie",
+    "content": "L'or joue un rôle essentiel dans les événements sociaux en Algérie, notamment les mariages et les fiançailles. Il constitue un cadeau incontournable offert à la mariée, souvent appelé 'sadaq'. Cette tradition reflète la valeur de l'or en tant que symbole de statut et de respect, tout en représentant une garantie pour l'avenir de la mariée. Malgré l'évolution des coutumes, l'or reste profondément ancré dans les célébrations algériennes."
+  },
+  {
+    "lang": "en",
+    "title": "Gold and Algerian Celebrations",
+    "content": "Gold plays a vital role in social events in Algeria, especially weddings and engagements. It is considered an essential gift for the bride, often known as the 'sadaq'. This tradition highlights gold’s value as a symbol of respect and status, while also serving as a guarantee for the bride’s future. Despite changing customs, gold remains deeply present in Algerian celebrations, making it a cultural heritage passed down through generations."
+  },
+  {
+    "lang": "ar",
+    "title": "كيفية كشف الذهب المغشوش",
+    "content": "يواجه الكثيرون في الجزائر مشكلة الذهب المغشوش أو المطلي. للتأكد من أصالة الذهب، يمكن ملاحظة الختم الذي يحدد العيار، أو إجراء اختبار الخدش على قطعة سيراميك، حيث يترك الذهب الحقيقي أثراً بلون أصفر. هناك أيضاً اختبارات منزلية باستخدام المغناطيس، فالذهب لا ينجذب إليه. ومع ذلك، يبقى الفحص لدى الصائغ المعتمد الطريقة الأضمن للتأكد من جودة الذهب وصحته."
   },
   {
     "lang": "fr",
     "title": "Comment détecter l'or falsifié",
-    "content": "On peut détecter l'or falsifié en vérifiant le poinçon (18K, 24K), en utilisant un aimant (l'or n'est pas magnétique), en testant le poids et la densité, ou en effectuant un test d'acide dans des bijouteries certifiées."
+    "content": "Beaucoup d'Algériens sont confrontés au problème de l'or falsifié ou plaqué. Pour vérifier son authenticité, on peut observer le poinçon indiquant le carat ou effectuer un test de rayure sur une céramique, l'or véritable laissant une trace jaune. D'autres méthodes incluent l'usage d'un aimant, car l'or n'est pas magnétique. Toutefois, le moyen le plus sûr reste de consulter un bijoutier agréé pour certifier la qualité de l'or."
   },
   {
     "lang": "en",
     "title": "How to Detect Fake Gold",
-    "content": "Fake gold can be detected by checking the hallmark (18K, 24K), using a magnet (gold is not magnetic), testing weight and density, or conducting an acid test at certified jewelry shops."
+    "content": "Many Algerians face the issue of fake or plated gold. To check authenticity, one can look for the hallmark indicating carat or perform a scratch test on ceramic, where real gold leaves a yellow mark. Another method is using a magnet, since gold is not magnetic. However, the safest way remains consulting a certified jeweler to ensure the gold’s authenticity and quality."
   },
 
   {
     "lang": "ar",
-    "title": "الحفاظ على المجوهرات الذهبية",
-    "content": "لتجنب الخدوش، يجب تخزين الذهب في علب مبطنة بالقماش، وتنظيفه بانتظام بماء دافئ وصابون خفيف، والابتعاد عن المواد الكيميائية والعطور."
+    "title": "كيفية المحافظة على الذهب",
+    "content": "للمحافظة على لمعان الذهب، يُنصح بتنظيفه بانتظام باستخدام ماء دافئ وصابون خفيف. كما يجب تجنب تعريضه للمواد الكيميائية مثل العطور والمنظفات التي قد تؤثر على بريقه. يُفضل حفظ المجوهرات الذهبية في صناديق مبطنة بالقماش لمنع الخدوش. وبالنسبة للقطع الثمينة، من الأفضل فحصها دورياً عند الصائغ لضمان بقائها في حالة ممتازة لسنوات طويلة."
   },
   {
     "lang": "fr",
-    "title": "Préserver les bijoux en or",
-    "content": "Pour éviter les rayures, il faut conserver l'or dans des boîtes doublées de tissu, le nettoyer régulièrement avec de l'eau tiède et du savon doux, et éviter les produits chimiques et les parfums."
+    "title": "Comment entretenir l'or",
+    "content": "Pour préserver l'éclat de l'or, il est conseillé de le nettoyer régulièrement avec de l'eau tiède et du savon doux. Il faut éviter tout contact avec des produits chimiques tels que les parfums et les détergents, qui peuvent altérer sa brillance. Les bijoux doivent être conservés dans des boîtes doublées de tissu afin de prévenir les rayures. Pour les pièces précieuses, un contrôle régulier chez le bijoutier est recommandé."
   },
   {
     "lang": "en",
-    "title": "Preserving Gold Jewelry",
-    "content": "To avoid scratches, store gold in fabric-lined boxes, clean it regularly with warm water and mild soap, and keep it away from chemicals and perfumes."
-  },
-
-  {
-    "lang": "ar",
-    "title": "نصائح عند شراء الذهب",
-    "content": "عند شراء الذهب، تأكد من العيار والوزن، اطلب فاتورة مختومة، وقارن الأسعار في أكثر من محل لتفادي الغش."
-  },
-  {
-    "lang": "fr",
-    "title": "Conseils pour acheter de l'or",
-    "content": "Lors de l'achat d'or, vérifiez le carat et le poids, demandez une facture tamponnée et comparez les prix dans plusieurs bijouteries pour éviter la fraude."
-  },
-  {
-    "lang": "en",
-    "title": "Tips for Buying Gold",
-    "content": "When buying gold, check the karat and weight, ask for an official receipt, and compare prices across multiple shops to avoid fraud."
-  },
-
-  {
-    "lang": "ar",
-    "title": "الذهب كاستثمار",
-    "content": "يعتبر الذهب استثمارًا آمنًا في فترات الأزمات الاقتصادية، حيث يحافظ على قيمته مع مرور الزمن."
-  },
-  {
-    "lang": "fr",
-    "title": "L'or comme investissement",
-    "content": "L'or est considéré comme un investissement sûr en période de crise économique, car il conserve sa valeur au fil du temps."
-  },
-  {
-    "lang": "en",
-    "title": "Gold as an Investment",
-    "content": "Gold is seen as a safe investment during economic crises, as it maintains its value over time."
-  },
-
-  {
-    "lang": "ar",
-    "title": "دور الذهب في الاقتصاد",
-    "content": "الذهب جزء مهم من احتياطي البنوك المركزية، ويُستخدم لضمان الاستقرار المالي وموازنة العملات."
-  },
-  {
-    "lang": "fr",
-    "title": "Le rôle de l'or dans l'économie",
-    "content": "L'or fait partie des réserves des banques centrales et sert à assurer la stabilité financière et l'équilibre monétaire."
-  },
-  {
-    "lang": "en",
-    "title": "The Role of Gold in the Economy",
-    "content": "Gold is part of central bank reserves and is used to ensure financial stability and balance currencies."
-  },
-
-  {
-    "lang": "ar",
-    "title": "الذهب كهدية",
-    "content": "في الثقافة الجزائرية، يُعتبر الذهب هدية مميزة خاصة في الأعراس والمناسبات، حيث يرمز إلى القيمة والاحترام."
-  },
-  {
-    "lang": "fr",
-    "title": "L'or comme cadeau",
-    "content": "Dans la culture algérienne, l'or est un cadeau privilégié, surtout lors des mariages et des occasions spéciales, symbole de valeur et de respect."
-  },
-  {
-    "lang": "en",
-    "title": "Gold as a Gift",
-    "content": "In Algerian culture, gold is a special gift, especially in weddings and occasions, symbolizing value and respect."
+    "title": "How to Maintain Gold",
+    "content": "To keep gold shining, it is recommended to clean it regularly with warm water and mild soap. Avoid exposing it to chemicals like perfumes and detergents, which can dull its brightness. Store gold jewelry in fabric-lined boxes to prevent scratches. For valuable pieces, periodic inspection by a jeweler is advised to ensure they remain in excellent condition for many years."
   }
 ]
