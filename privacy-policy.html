@@ -1,115 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>سياسة الخصوصية - GOLD DZ</title>
-  <meta name="description" content="سياسة الخصوصية لتطبيق GOLD DZ">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سياسة الخصوصية | GOLD DZ</title>
+  <meta name="description" content="سياسة الخصوصية لتطبيق GOLD DZ: نوعية البيانات التي نجمعها وكيف نستخدمها وحقوق المستخدم." />
+  <link rel="icon" href="data:," />
   <style>
-    body { font-family: "Cairo", "Noto Kufi Arabic", Tahoma, Arial, sans-serif; margin:0; padding:0; background:#0f172a; color:#e5e7eb; line-height:1.85; }
-    .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px; }
-    header { background: #111827; padding: 24px 20px; border-bottom: 1px solid rgba(255,255,255,.08); border-radius: 0 0 16px 16px; }
-    h1 { margin: 0 0 8px; font-size: 28px; color: #fff; }
-    .muted { color:#9ca3af; font-size:14px; }
-    section { background:#111827; margin: 16px 0; padding: 18px 20px; border:1px solid rgba(255,255,255,.08); border-radius:16px; }
-    h2 { margin: 0 0 8px; font-size: 22px; color:#fff; }
-    h3 { margin: 14px 0 6px; font-size: 18px; color:#fff; }
-    p { margin: 6px 0 10px; }
-    ul { margin: 8px 0 12px; }
-    a { color:#60a5fa; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { padding: 16px 20px 32px; text-align:center; color:#9ca3af; }
+    :root {
+      --bg: #0b0c0f;
+      --card: #11131a;
+      --fg: #e9ecf1;
+      --muted: #b8c0cc;
+      --brand: #ffd166;
+      --accent: #06d6a0;
+      --link: #6ec1ff;
+      --danger: #ff6b6b;
+      --radius: 16px;
+      --shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    /* Light mode (auto if user prefers) */
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f8fafc; --card:#ffffff; --fg:#0b0c0f; --muted:#4b5563; --link:#0ea5e9;
+      }
+    }
+    html,body{height:100%}
+    body{margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Kufi Arabic", Tahoma, Arial, sans-serif; background:var(--bg); color:var(--fg); line-height:1.85}
+    .container{max-width: 980px; margin-inline:auto; padding: clamp(16px, 3vw, 28px)}
+    header{
+      background: linear-gradient(135deg, rgba(255,209,102,.12), rgba(6,214,160,.10));
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      position: sticky; top: 0; backdrop-filter: blur(10px);
+      z-index: 10;
+    }
+    .hero{display:grid; grid-template-columns: 1fr; gap: 10px; padding: 16px 0}
+    .brand{display:flex; align-items:center; gap:12px}
+    .logo{width:44px; height:44px; border-radius:50%; background: radial-gradient(circle at 30% 30%, #ffe08a, #b88900); box-shadow: inset 0 0 0 2px rgba(0,0,0,.15)}
+    h1{font-size: clamp(24px, 2.6vw, 36px); margin:0}
+    .subtitle{color:var(--muted); margin-top:2px}
+    .bar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:6px}
+    .btn{border:1px solid rgba(255,255,255,.12); background: transparent; color:var(--fg); padding:10px 14px; border-radius: 999px; cursor:pointer; box-shadow: var(--shadow); transition:.2s}
+    .btn:hover{transform: translateY(-1px); border-color: rgba(255,255,255,.25)}
+    .btn.brand{background: linear-gradient(135deg, #ffd166, #ffb703); color:#1a1a1a; border:none}
+
+    .card{background: var(--card); border:1px solid rgba(255,255,255,.08); border-radius: var(--radius); padding: clamp(16px, 2.4vw, 24px); box-shadow: var(--shadow)}
+    .toc{display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; margin: 18px 0}
+    .toc a{display:block; text-decoration:none; color:var(--fg); border:1px dashed rgba(255,255,255,.18); padding:12px 14px; border-radius: 12px}
+    .toc a:hover{background: rgba(255,255,255,.04)}
+
+    h2{font-size: clamp(20px, 2.2vw, 28px); margin-top: 28px}
+    h3{font-size: 18px; margin-top: 18px}
+    p{margin: 10px 0}
+    ul{margin: 8px 14px}
+    li{margin: 6px 0}
+
+    details{border:1px solid rgba(255,255,255,.14); border-radius: 12px; padding: 12px 14px; background: rgba(255,255,255,.02)}
+    details + details{margin-top: 10px}
+    summary{cursor: pointer; font-weight:600}
+
+    .note{font-size: .95rem; color: var(--muted)}
+    a{color:var(--link)}
+
+    .footer{margin: 28px 0 12px; font-size: .9rem; color: var(--muted)}
+
+    .back-to-top{position: fixed; inset-inline-end: 18px; inset-block-end: 18px; z-index: 20}
+
+    /* Print */
+    @media print{
+      header, .back-to-top, .btn { display:none !important }
+      body{background:#fff; color:#000}
+      .card{border: none; box-shadow:none}
+      a[href]:after{content:" (" attr(href) ")"}
+    }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>سياسة الخصوصية - GOLD DZ</h1>
-      <div class="muted">آخر تحديث: 2025-08-22</div>
-      <p>أهلاً بك في تطبيق <strong>GOLD DZ</strong>. نحن نأخذ خصوصيتك على محمل الجد. توضح هذه السياسة ماهية البيانات التي نجمعها، وكيف نستخدمها، ومع من نشاركها. باستخدامك للتطبيق، فإنك توافق على الممارسات الموضحة في هذه السياسة.</p>
-    </header>
+  <header>
+    <div class="container hero">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>سياسة الخصوصية – GOLD DZ</h1>
+          <div class="subtitle">نحافظ على خصوصيتك ونشرح لك ببساطة ما نجمعه ولماذا.</div>
+        </div>
+      </div>
+      <div class="bar">
+        <button class="btn brand" id="printBtn" aria-label="طباعة الصفحة">🖨️ طباعة</button>
+        <button class="btn" id="modeBtn" aria-label="تبديل الوضع">🌓 تبديل الوضع</button>
+        <span class="note">آخر تحديث: <time id="lastUpdated" datetime="2025-08-22">22 أوت 2025</time></span>
+      </div>
+    </div>
+  </header>
 
-    <section id="data-collected">
-      <h2>1. البيانات التي نجمعها</h2>
-      <p>لتقديم أفضل خدمة ممكنة، نتعامل مع أنواع مختلفة من البيانات، ونؤمن بالشفافية الكاملة حولها:</p>
+  <main class="container">
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro">مرحبًا بك في تطبيق «GOLD DZ»</h2>
+      <p>
+        نحن نأخذ خصوصيتك على محمل الجد. توضّح هذه السياسة ماهية البيانات التي نجمعها، وكيف نستخدمها، ومع من نشاركها. باستخدامك للتطبيق، فإنك توافق على الممارسات الموضّحة في هذه السياسة.
+      </p>
 
-      <h3>أ) البيانات التي لا نجمعها إطلاقاً</h3>
-      <p>نحن لا نجمع أو نطلب أو نخزن أي معلومات تعريف شخصية (PII). وهذا يشمل:</p>
+      <nav class="toc" aria-label="فهرس المحتويات">
+        <a href="#data-types">1) البيانات التي نجمعها</a>
+        <a href="#use-of-data">2) كيف نستخدم بياناتك</a>
+        <a href="#sharing">3) مشاركة البيانات والأطراف الثالثة</a>
+        <a href="#security">4) أمن البيانات</a>
+        <a href="#ads">5) الإعلانات</a>
+        <a href="#links">6) الروابط الخارجية</a>
+        <a href="#kids">7) خصوصية الأطفال</a>
+        <a href="#changes">8) التغييرات على السياسة</a>
+        <a href="#contact">9) اتصل بنا</a>
+      </nav>
+    </section>
+
+    <section class="card" id="data-types" aria-labelledby="data-types-h">
+      <h2 id="data-types-h">1) البيانات التي نجمعها</h2>
+      <p>لتقديم أفضل خدمة ممكنة، نتعامل مع أنواع مختلفة من البيانات ونؤمن بالشفافية الكاملة حولها:</p>
+
+      <h3>أ) بيانات لا نجمعها إطلاقًا</h3>
+      <p class="note">لا نطلب ولا نخزّن أي معلومات تعريف شخصية (PII) من قبيل:</p>
       <ul>
-        <li>الاسم أو البريد الإلكتروني أو رقم الهاتف.</li>
+        <li>الاسم، البريد الإلكتروني، رقم الهاتف.</li>
         <li>بيانات الموقع الجغرافي (GPS).</li>
-        <li>جهات الاتصال أو الصور أو أي ملفات شخصية من جهازك.</li>
+        <li>جهات الاتصال، الصور، أو أي ملفات شخصية من جهازك.</li>
       </ul>
 
-      <h3>ب) البيانات التي نجمعها بشكل مجهول الهوية (Anonymous Data)</h3>
-      <p>لضمان عمل وظائف التطبيق الأساسية وتحسينها، نجمع بيانات محدودة وغير شخصية:</p>
+      <h3>ب) بيانات مجهولة الهوية (Anonymous)</h3>
+      <details>
+        <summary>معرّف الإشعارات (Firebase Cloud Messaging Token)</summary>
+        <p>
+          رمز فريد ومجهول يمنحه جهازك للتطبيق. نستخدمه فقط لإرسال إشعارات فورية عند تغيّر أسعار الذهب. هذا المعرّف لا يكشف هويتك الشخصية.
+        </p>
+      </details>
+      <details>
+        <summary>بيانات استخدام التطبيق (Firebase Analytics)</summary>
+        <p>
+          بيانات إحصائية مجهولة حول تفاعلك مع التطبيق (الشاشات، الأزرار، الميزات الأكثر استخدامًا). نستخدمها لفهم السلوك، إصلاح الأخطاء، وتحسين التجربة.
+        </p>
+      </details>
+
+      <h3>ج) بيانات محفوظة محليًا على جهازك فقط</h3>
       <ul>
-        <li><strong>معرّف الإشعارات (Firebase Cloud Messaging Token):</strong> هو رمز فريد ومجهول الهوية يمنحه جهازك للتطبيق. نستخدمه فقط لإرسال إشعارات فورية إليك عند تغير أسعار الذهب. هذا المعرّف لا يكشف عن هويتك الشخصية.</li>
-        <li><strong>بيانات استخدام التطبيق (Firebase Analytics):</strong> نجمع بيانات إحصائية مجهولة المصدر حول كيفية تفاعلك مع التطبيق، مثل الشاشات التي تزورها، والأزرار التي تضغط عليها، والميزات الأكثر استخدامًا. نستخدم هذه البيانات لفهم سلوك المستخدمين، وإصلاح الأخطاء، وتحسين تجربة التطبيق بشكل عام.</li>
+        <li><strong>اللغة المفضّلة</strong> (العربية/الفرنسية/الإنجليزية).</li>
+        <li><strong>المظهر</strong> (نهاري/مظلم).</li>
+        <li><strong>حالة الإشعارات</strong> (مفعّل/غير مفعّل).</li>
       </ul>
+      <p class="note">تُحفظ هذه التفضيلات في <code>localStorage</code> ولا تُرسل لخوادمنا.</p>
+    </section>
 
-      <h3>ج) البيانات المحفوظة على جهازك فقط (Local Data)</h3>
-      <p>بعض تفضيلاتك يتم حفظها محليًا على جهازك باستخدام تقنية التخزين المحلي (LocalStorage) لتقديم تجربة مخصصة. هذه البيانات لا تصل إلى خوادمنا أبدًا وتبقى تحت سيطرتك الكاملة:</p>
+    <section class="card" id="use-of-data" aria-labelledby="use-of-data-h">
+      <h2 id="use-of-data-h">2) كيف نستخدم بياناتك</h2>
       <ul>
-        <li>اللغة المفضلة: لحفظ اللغة التي اخترتها (عربية، فرنسية، إنجليزية).</li>
-        <li>المظهر المفضل: لحفظ اختيارك بين الوضع النهاري والوضع المظلم.</li>
-        <li>حالة الإشعارات: لتذكر ما إذا كنت قد قمت بتفعيل الإشعارات أم لا.</li>
+        <li>إرسال التنبيهات التي تطلبها عبر معرّف الإشعارات.</li>
+        <li>تحسين الأداء عبر تحليل بيانات الاستخدام المجهولة.</li>
+        <li>تخصيص التجربة استنادًا إلى التفضيلات المحفوظة محليًا.</li>
       </ul>
     </section>
 
-    <section id="how-we-use">
-      <h2>2. كيف نستخدم بياناتك</h2>
+    <section class="card" id="sharing" aria-labelledby="sharing-h">
+      <h2 id="sharing-h">3) مشاركة البيانات والأطراف الثالثة</h2>
+      <p>لا نبيع أو نؤجّر بياناتك لأي طرف ثالث. نعتمد خدمات خارجية موثوقة تُطبق سياسات الخصوصية الخاصة بها:</p>
       <ul>
-        <li><strong>لتقديم خدماتنا:</strong> نستخدم معرّف الإشعارات لإرسال التنبيهات التي تطلبها.</li>
-        <li><strong>لتحسين التطبيق:</strong> نستخدم بيانات Analytics المجهولة لتحليل الأداء وتحديد الميزات التي تحتاج إلى تحسين.</li>
-        <li><strong>لتخصيص تجربتك:</strong> نستخدم البيانات المحفوظة محليًا لعرض التطبيق بالإعدادات التي تفضلها عند كل استخدام.</li>
+        <li><strong>Google Firebase</strong> (Analytics & Messaging).</li>
+        <li><strong>Google AdMob</strong> لعرض الإعلانات داخل التطبيق.
+          <div class="note">قد تستخدم AdMob معرّفات الأجهزة لعرض إعلانات مخصّصة. يمكنك إدارة تفضيلات الإعلانات عبر <a href="https://adssettings.google.com" target="_blank" rel="noopener">إعدادات إعلانات Google</a>.</div>
+        </li>
+        <li><strong>GitHub & Google Apps Script</strong> لجلب بيانات أسعار الذهب والمقالات بشكل آمن ومجهول.</li>
       </ul>
+      <p class="note">مزيد من التفاصيل: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a>.</p>
     </section>
 
-    <section id="sharing">
-      <h2>3. مشاركة البيانات والأطراف الثالثة</h2>
-      <p>نحن لا نبيع أو نؤجر بياناتك لأي طرف ثالث. ومع ذلك، نحن نعتمد على خدمات خارجية موثوقة لتشغيل التطبيق، والتي قد تجمع البيانات وفقًا لسياسات الخصوصية الخاصة بها:</p>
-      <ul>
-        <li><strong>Google Firebase (Analytics &amp; Messaging):</strong> هي خدمة من Google نستخدمها لإرسال الإشعارات وجمع إحصائيات الاستخدام المجهولة.</li>
-        <li><strong>Google AdMob:</strong> نستخدم هذه الخدمة لعرض الإعلانات داخل التطبيق، وهي إحدى وسائل دعمنا للاستمرار في تقديم التطبيق مجانًا. قد تستخدم AdMob معرّفات الأجهزة لجمع البيانات بهدف عرض إعلانات مخصصة لك. يمكنك الاطلاع على سياسة خصوصية Google لمعرفة المزيد: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
-        <li><strong>GitHub &amp; Google Apps Script:</strong> نستخدم هذه الخدمات لجلب بيانات أسعار الذهب والمقالات بشكل آمن ومجهول الهوية.</li>
-      </ul>
+    <section class="card" id="security" aria-labelledby="security-h">
+      <h2 id="security-h">4) أمن البيانات</h2>
+      <p>
+        لأننا لا نخزّن معلومات شخصية على خوادمنا، يبقى الخطر محدودًا. تُعالج البيانات المجهولة وتُخزّن عبر خدمات Google التي تطبّق معايير أمان عالمية.
+      </p>
     </section>
 
-    <section id="security">
-      <h2>4. أمن البيانات</h2>
-      <p>نحن ملتزمون بحماية بياناتك. بما أننا لا نخزن أي معلومات شخصية على خوادمنا، فإن الخطر محدود. البيانات المجهولة التي نجمعها تتم معالجتها وتخزينها بشكل آمن من خلال خدمات Google، والتي تطبق معايير أمنية عالمية.</p>
+    <section class="card" id="ads" aria-labelledby="ads-h">
+      <h2 id="ads-h">5) الإعلانات (Advertisements)</h2>
+      <p>
+        يحتوي التطبيق على إعلانات من طرف ثالث (Google AdMob) تساعدنا على إبقاء التطبيق مجانيًا. قد تُستخدم ملفات تعريف الارتباط وتقنيات مشابهة لعرض إعلانات تناسب اهتماماتك.
+      </p>
+      <details>
+        <summary>التحكّم في الإعلانات المخصّصة</summary>
+        <ul>
+          <li>إدارة التخصيص عبر <a href="https://adssettings.google.com" target="_blank" rel="noopener">إعدادات إعلانات Google</a>.</li>
+          <li>يمكنك رفض الإعلانات المخصّصة من داخل إعدادات الجهاز/التطبيق إذا كانت متاحة.</li>
+        </ul>
+      </details>
     </section>
 
-    <section id="ads">
-      <h2>5. الإعلانات (Advertisements)</h2>
-      <p>يحتوي التطبيق على إعلانات مقدمة من طرف ثالث (Google AdMob). هذه الإعلانات تساعد في الحفاظ على التطبيق مجانيًا. قد يستخدم مقدمو هذه الإعلانات ملفات تعريف الارتباط وتقنيات مشابهة لعرض إعلانات تهمك.</p>
+    <section class="card" id="links" aria-labelledby="links-h">
+      <h2 id="links-h">6) الروابط الخارجية</h2>
+      <p>
+        قد يتضمن التطبيق روابط لصفحاتنا على منصات التواصل (مثل فيسبوك وتيك توك) أو البريد الإلكتروني. عند النقر عليها، تنتقل إلى خدمات تخضع لسياساتها الخاصة، ولسنا مسؤولين عن ممارساتها.
+      </p>
     </section>
 
-    <section id="links">
-      <h2>6. الروابط الخارجية</h2>
-      <p>قد يحتوي التطبيق على روابط لصفحاتنا على منصات التواصل الاجتماعي (مثل فيسبوك وتيك توك) أو البريد الإلكتروني. عند النقر على هذه الروابط، فإنك تنتقل إلى خدمة خارجية تخضع لسياسة الخصوصية الخاصة بها. نحن غير مسؤولين عن ممارسات الخصوصية في تلك المواقع.</p>
+    <section class="card" id="kids" aria-labelledby="kids-h">
+      <h2 id="kids-h">7) خصوصية الأطفال</h2>
+      <p>
+        التطبيق غير موجّه للأطفال دون 13 عامًا، ولا نجمع عمدًا أي معلومات شخصية عنهم. إذا اكتشفنا جمع بيانات من طفل دون موافقة الوالدَين، سنحذفها فورًا.
+      </p>
     </section>
 
-    <section id="children">
-      <h2>7. خصوصية الأطفال</h2>
-      <p>تطبيقنا غير موجه للأطفال دون سن 13 عامًا. نحن لا نجمع عن عمد أي معلومات شخصية من الأطفال. إذا اكتشفنا أننا قمنا بجمع بيانات من طفل دون موافقة الوالدين، فسنقوم بحذفها على الفور.</p>
+    <section class="card" id="changes" aria-labelledby="changes-h">
+      <h2 id="changes-h">8) التغييرات على سياسة الخصوصية</h2>
+      <p>
+        قد نقوم بتحديث هذه السياسة من وقت لآخر، وسننشر أي تغييرات هنا. نوصي بمراجعتها دوريًا للبقاء على علم بأي تحديثات.
+      </p>
     </section>
 
-    <section id="changes">
-      <h2>8. التغييرات على سياسة الخصوصية</h2>
-      <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سنقوم بنشر أي تغييرات على هذه الصفحة. نوصي بمراجعة هذه السياسة بشكل دوري لتكون على علم بأي تحديثات.</p>
+    <section class="card" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">9) اتصل بنا</h2>
+      <p>
+        لأي أسئلة أو استفسارات حول سياسة الخصوصية، تواصل معنا عبر البريد:
+        <a href="mailto:golddzapp@gmail.com">golddzapp@gmail.com</a>
+      </p>
     </section>
 
-    <section id="contact">
-      <h2>9. اتصل بنا</h2>
-      <p>إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية هذه، يرجى عدم التردد في التواصل معنا عبر البريد الإلكتروني: <a href="mailto:golddzapp@gmail.com">golddzapp@gmail.com</a></p>
-    </section>
+    <p class="footer">© <span id="year"></span> GOLD DZ. جميع الحقوق محفوظة. — إصدار الوثيقة: v1.0</p>
+  </main>
 
-    <footer>
-      © GOLD DZ - جميع الحقوق محفوظة
-    </footer>
-  </div>
+  <button class="btn back-to-top" id="toTop" aria-label="العودة للأعلى">⬆️ للأعلى</button>
+
+  <script>
+    // آخر سنة
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // زر الطباعة
+    document.getElementById('printBtn').addEventListener('click', () => window.print());
+
+    // زر العودة للأعلى
+    const toTop = document.getElementById('toTop');
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // تبديل الوضع + حفظ التفضيل محليًا
+    const modeBtn = document.getElementById('modeBtn');
+    const STORAGE_KEY = 'gdz_privacy_mode';
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if(saved === 'light'){
+      document.documentElement.style.setProperty('--bg','#f8fafc');
+      document.documentElement.style.setProperty('--card','#ffffff');
+      document.documentElement.style.setProperty('--fg','#0b0c0f');
+      document.documentElement.style.setProperty('--muted','#4b5563');
+      document.documentElement.style.setProperty('--link','#0ea5e9');
+    }
+    modeBtn.addEventListener('click', () => {
+      const isDark = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim() === '#0b0c0f';
+      if(isDark){
+        document.documentElement.style.setProperty('--bg','#f8fafc');
+        document.documentElement.style.setProperty('--card','#ffffff');
+        document.documentElement.style.setProperty('--fg','#0b0c0f');
+        document.documentElement.style.setProperty('--muted','#4b5563');
+        document.documentElement.style.setProperty('--link','#0ea5e9');
+        localStorage.setItem(STORAGE_KEY, 'light');
+      } else {
+        document.documentElement.style.setProperty('--bg','#0b0c0f');
+        document.documentElement.style.setProperty('--card','#11131a');
+        document.documentElement.style.setProperty('--fg','#e9ecf1');
+        document.documentElement.style.setProperty('--muted','#b8c0cc');
+        document.documentElement.style.setProperty('--link','#6ec1ff');
+        localStorage.setItem(STORAGE_KEY, 'dark');
+      }
+    });
+  </script>
 </body>
 </html>
-
