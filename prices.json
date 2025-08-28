@@ -2,7 +2,7 @@
   "price_history": [
    {
       "date": "2025-08-29",
-      "local": 20800,
+      "local": 20900,
       "foreign": 22800,
       "kassi_local": 16300,
       "kassi_foreign": 17700,
@@ -146,6 +146,7 @@
     }
   ]
 }
+
 
 
 
