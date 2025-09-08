@@ -1,6 +1,22 @@
 {
   "price_history": [
- {
+{
+      "date": "2025-09-08",
+      "local": 22600,
+      "foreign": 25500,
+      "kassi_local": 18000,
+      "kassi_foreign": 19000,
+      "louis": 22400
+    },
+    {
+      "date": "2025-09-07",
+      "local": 22600,
+      "foreign": 25300,
+      "kassi_local": 18000,
+      "kassi_foreign": 19000,
+      "louis": 22200
+    },
+    {
       "date": "2025-09-06",
       "local": 22600,
       "foreign": 25300,
@@ -210,6 +226,7 @@
     }
   ]
 }
+
 
 
 
